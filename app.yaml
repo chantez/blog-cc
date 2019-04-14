@@ -4,7 +4,7 @@ threadsafe: yes
 # [END runtime]
 handlers:
 - url: /(.+)
-  static_files: dist/crianzascomplejas\1
+  static_files: dist/crianzascomplejas/\1
   upload: dist/crianzascomplejas/(.*)
 - url: /
   static_files: dist/crianzascomplejas/index.html
