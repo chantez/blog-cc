@@ -7,7 +7,7 @@ handlers:
   static_files: dist/\1
   upload: dist/(.*)
 - url: /
-  static_files: dist/index.html
-  upload: dist/index.html
+  static_files: dist/crianzascomplejas/index.html
+  upload: dist/crianzascomplejas/index.html
 skip_files:
 - ^(?!dist)  # Skip any files not in the dist folder
