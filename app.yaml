@@ -4,10 +4,10 @@ threadsafe: yes
 # [END runtime]
 handlers:
 - url: /(.+)
-  static_files: dist/crianzascomplejas\1
-  upload: dist/crianzascomplejas(.*)
+  static_files: dist/\1
+  upload: dist/(.*)
 - url: /
-  static_files: dist/crianzascomplejas/index.html
-  upload: dist/crianzascomplejas/index.html
+  static_files: dist/index.html
+  upload: dist/index.html
 skip_files:
 - ^(?!dist)  # Skip any files not in the dist folder
